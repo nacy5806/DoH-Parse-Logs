@@ -12,7 +12,11 @@ A .csv file of network logs with the header msg_original,TimeGenerated [Central 
 **Note**: `doh_cache` and `doh_logger` are custom modules; ensure they are included in your project directory.
 
 ## Usage
-From the command line, write "python3 parse_network_logs.py <log_file.csv> <successful_lookups.csv> <failed_lookups.csv>", or "python3 parse_network_logs.py <directory containing log files> <successful_lookups.csv> <failed_lookups.csv>"
+From the command line, write 
+
+"python3 parse_network_logs.py <log_file.csv> <successful_lookups.csv> <failed_lookups.csv>", OR 
+
+"python3 parse_network_logs.py <log_directory> <successful_lookups.csv> <failed_lookups.csv>."
 
 
 
