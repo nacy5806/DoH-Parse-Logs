@@ -5,7 +5,7 @@ import os
 
 def usage():
     """ Print usage info and exit. """
-    print("Usage: python3 " + sys.argv[0] + " <log_file.csv> <successful_lookups.csv> <failed_lookups.csv>")
+    print("Usage: python3 " + sys.argv[0] + " <log_file.csv | log_directory> <successful_lookups.csv> <failed_lookups.csv>")
     exit()
 
 
