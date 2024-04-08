@@ -1,5 +1,5 @@
 ## Description
-Uses the [DoHClient module](https://github.com/vintagecircuit/DoH-Client-Module/tree/main) to gather data about network logs and output data about them to a .csv file.
+Uses the [DoHClient module](https://github.com/vintagecircuit/DoH-Client-Module/tree/main) to process network logs and output data about them to a .csv file.
 **Note**: The DoHClient module currently only supports IPv4 addresses. IPv6 addresses will be ignored. 
 ## Expected Network Log File Format
 A .csv file of network logs with the header msg_original,TimeGenerated [Central Time (US and Canada)],Protocol,SourceIP,SourcePort,Target,TargetPort,URL,Action,NatDestination,OperationName,ThreatIntel,IDSSignatureID,IDSSignatureDescription,IDSPriority,IDSClassification,Policy,RuleCollectionGroup,RuleCollection,Rule,WebCategory.
